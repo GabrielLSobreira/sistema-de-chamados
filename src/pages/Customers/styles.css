@@ -1,0 +1,16 @@
+.customers label {
+  margin-bottom: 0.5em;
+  font-size: 1.4em;
+}
+
+.customers input {
+  margin-bottom: 1em;
+  padding: 0.7em;
+  border: 0;
+  border-radius: 5px;
+  max-width: 600px;
+}
+
+.customers button {
+  max-width: 600px;
+}

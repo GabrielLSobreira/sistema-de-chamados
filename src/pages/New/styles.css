@@ -1,0 +1,27 @@
+form textarea {
+  height: 105px;
+  resize: none;
+}
+
+form input[type='radio']:not(:first-child) {
+  margin-left: 15px;
+}
+
+.status span {
+  font-size: 1.3em;
+  padding-left: 0.5em;
+}
+
+@media screen and (max-width: 600px) {
+  .status span {
+    font-size: 1.1em;
+    padding-left: 0.3em;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .status span {
+    font-size: 0.75em;
+    padding-left: 0.3em;
+  }
+}
