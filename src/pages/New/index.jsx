@@ -133,6 +133,7 @@ const New = () => {
         toast.success('Chamado criado com sucesso!', { theme: 'colored' });
         setComplemento('');
         setCustomerSelected(0);
+        history.push('/dashboard');
       })
       .catch((err) => {
         toast.error('Ops erro ao registrar, tente mais tarde', {
